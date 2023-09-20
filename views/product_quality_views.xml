@@ -10,6 +10,7 @@
                 <header/>
                 <sheet>
                     <group>
+                        <field name="code"/>
                         <field name="name"/>
                         <field name="description"/>
                     </group>
@@ -24,6 +25,7 @@
         <field name="model">product.quality</field>
         <field name="arch" type="xml">
             <tree>
+                <field name="code"/>
                 <field name="name"/>
                 <field name="description"/>
             </tree>
