@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 09:39+0000\n"
-"PO-Revision-Date: 2022-12-14 09:39+0000\n"
+"POT-Creation-Date: 2023-11-02 12:12+0000\n"
+"PO-Revision-Date: 2023-11-02 12:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,9 +16,14 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: product_quality
+#: model:ir.model.fields,field_description:product_quality.field_product_quality__code
+msgid "Code"
+msgstr ""
+
+#. module: product_quality
 #: model_terms:ir.actions.act_window,help:product_quality.product_quality_action
 msgid "Create a new Quality"
-msgstr ""
+msgstr "Créer une nouvelle qualité d'article"
 
 #. module: product_quality
 #: model:ir.model.fields,field_description:product_quality.field_product_quality__create_uid
@@ -33,7 +38,7 @@ msgstr ""
 #. module: product_quality
 #: model:ir.model.fields,field_description:product_quality.field_product_quality__description
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #. module: product_quality
 #: model:ir.model.fields,field_description:product_quality.field_product_quality__display_name
@@ -66,6 +71,11 @@ msgid "Name"
 msgstr "Nom"
 
 #. module: product_quality
+#: model:ir.model,name:product_quality.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "Mouvements d'article (Ligne de mouvement de stock)"
+
+#. module: product_quality
 #: model:ir.model,name:product_quality.model_product_template
 msgid "Product Template"
 msgstr "Modèle d'article"
@@ -74,7 +84,9 @@ msgstr "Modèle d'article"
 #: model:ir.actions.act_window,name:product_quality.product_quality_action
 #: model:ir.model.fields,field_description:product_quality.field_product_product__product_quality_id
 #: model:ir.model.fields,field_description:product_quality.field_product_template__product_quality_id
+#: model:ir.model.fields,field_description:product_quality.field_stock_move_line__product_quality_id
 #: model:ir.ui.menu,name:product_quality.product_quality_action_menu
+#: model_terms:ir.ui.view,arch_db:product_quality.stock_move_line_view_search_inherited
 msgid "Quality"
 msgstr "Qualité d'article"
 
